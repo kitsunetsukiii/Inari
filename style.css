@@ -34,3 +34,9 @@ p {
          0 0 8px white,
          0 0 16px white;
 }
+.landing-image {
+    width: 500px;
+    display: block;
+    margin: 100px auto;
+    cursor: pointer;
+}
