@@ -22,3 +22,12 @@ p {
         0 0 10px white,
         0 0 16px white;
 }
+p {
+    font-size: 24px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    text-shadow:
+        0 0 5px white,
+        0 0 10px white,
+        0 0 16px white;
+}
