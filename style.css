@@ -1,7 +1,9 @@
 body {
     background-image: url("artofheraldryenc00foxd_0281edited.png");
     background-repeat: repeat;
+    background-size: 300px;
 }
+
 .text-image {
     display: flex;
     align-items: center;
@@ -11,8 +13,12 @@ body {
 .text-image img {
     width: 200px;
 }
+
 p {
+    font-size: 24px;
+    color: black;
     text-shadow:
-        0 0 3px white,
-        0 0 6px white;
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white;
 }
