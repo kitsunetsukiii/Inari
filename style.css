@@ -11,3 +11,8 @@ body {
 .text-image img {
     width: 200px;
 }
+p {
+    text-shadow:
+        0 0 3px white,
+        0 0 6px white;
+}
