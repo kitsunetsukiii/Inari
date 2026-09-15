@@ -62,4 +62,6 @@ a:visited {
     display: block;
     margin: 100px auto;
     cursor: pointer;
+}a {
+    text-decoration: none;
 }
