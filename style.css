@@ -52,4 +52,9 @@ a:visited {
 
 .magenta-link:visited {
     color: magenta;
+}.photo-credit {
+    font-size: 14px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }
