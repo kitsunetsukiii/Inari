@@ -46,3 +46,10 @@ p {
 a:visited {
     color: magenta;
 }
+.magenta-link {
+    color: magenta;
+}
+
+.magenta-link:visited {
+    color: magenta;
+}
