@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Faith Collapsing';
+    src: url('Faith Collapsing.ttf') format('truetype');
+}
+
 body {
     background-image: url("artofheraldryenc00foxd_0281edited.png");
     background-repeat: repeat;
     background-size: 550px;
+    white-space: normal;
+    position: static;
 }
 
 .text-image {
@@ -17,20 +24,18 @@ body {
 p {
     font-size: 20px;
     color: black;
-    text-shadow:
-        -1px -1px 0 white,
-         1px -1px 0 white,
-        -1px  1px 0 white,
-         1px  1px 0 white,
-         0 0 8px white,
-         0 0 16px white;
+    text-shadow: -2px -2px 0 white,
+              2px -2px 0 white,
+             -2px  2px 0 white,
+              2px  2px 0 white,
+              0 0 8px white,
+              0 0 16px white;
 }
 
 a {
     font-size: 20px;
     color: red;
-    text-shadow:
-        -1px -1px 0 white,
+    text-shadow: -1px -1px 0 white,
          1px -1px 0 white,
         -1px  1px 0 white,
          1px  1px 0 white,
@@ -45,8 +50,7 @@ a:visited {
 .photo-credit {
     font-size: 12px;
     color: black;
-    text-shadow:
-        -1px -1px 0 white,
+    text-shadow: -1px -1px 0 white,
          1px -1px 0 white,
         -1px  1px 0 white,
          1px  1px 0 white,
@@ -62,6 +66,8 @@ a:visited {
     display: block;
     margin: 100px auto;
     cursor: pointer;
-}a {
+}
+
+a {
     text-decoration: none;
 }
